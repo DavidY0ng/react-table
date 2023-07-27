@@ -87,7 +87,6 @@ function App() {
             <tr>
               <th>Category</th>
               <th>Value</th>
-              <td></td>
             </tr>
           </thead>
             
