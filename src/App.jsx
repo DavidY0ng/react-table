@@ -89,22 +89,20 @@ function App() {
               <th>Value</th>
             </tr>
           </thead>
-            
             <tbody>
-              <td>Alpha</td>
-              <td>{sumData()}</td>
+              <tr>
+                <td>Alpha</td>
+                <td>{sumData()}</td>
+              </tr>
+              <tr>
+                <td>Beta</td>
+                <td>{divideData()}</td>
+              </tr>
+              <tr>
+                <td>Charlie</td>
+                <td>{multiplyData()}</td>
+              </tr>
             </tbody>
-
-            <tbody>
-              <td>Beta</td>
-              <td>{divideData()}</td>
-            </tbody>
-
-            <tbody>
-              <td>Charlie</td>
-              <td>{multiplyData()}</td>
-            </tbody>
-
         </table>
       ) : null}
     

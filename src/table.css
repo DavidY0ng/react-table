@@ -2,14 +2,18 @@
 
 .table {
   border-collapse: collapse;
-  width: 100%;
+  table-layout: fixed; /* Add this property to fix the column width */
+  width: 100%; /* Set the table width to 100% */
 }
 
 .table th,
 .table td {
   border: 1px solid #dddddd;
-  padding: 8px;
+  padding: 7px;
   text-align: left;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis (...) for long content */
 }
 
 .table th {
